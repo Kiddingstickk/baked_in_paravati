@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Mountain, Coffee, Home, ChevronLeft, ChevronRight } from "lucide-react";
 import cafeImg from "../assets/another_trial.jpg";
-import bgImg from "../assets/paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg";
+import bgImg from "../assets/paul-pastourmatzis-r0J9sGBWFOc-unsplash.avif";
 
 gsap.registerPlugin(ScrollTrigger);
 

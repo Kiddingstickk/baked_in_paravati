@@ -4,14 +4,50 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nails Spa - Transform Your Nails Into Art</title>
-    <meta name="description" content="Experience luxury nail services at Nails Spa. From elegant manicures to custom nail art, we bring creativity and precision to every appointment." />
-    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+
+    <!-- Title & Description -->
+    <title>Baked in Parvati | Café, Treks & Cottage</title>
+    <meta name="description" content="Discover Baked in Parvati: a premium café, guided treks, and cozy cottage stays in the Himalayas. Authentic experiences blending nature, comfort, and adventure." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Baked in Parvati | Café, Treks & Cottage" />
+    <meta property="og:description" content="Premium café, guided treks, and cottage stays in the Himalayas." />
+    <meta property="og:image" content="/assets/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:title" content="Baked in Parvati | Café, Treks & Cottage" />
+    <meta name="twitter:description" content="Authentic Himalayan experiences: café, treks, and cottage stays." />
+    <meta name="twitter:image" content="/assets/og-image.jpg" />
+
+    <!-- Fonts (optimized loading) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&display=swap"></noscript>
+
+    <!-- Structured Data (Local Business Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Baked in Parvati Café Treks Cottage",
+      "image": "/assets/og-image.jpg",
+      "description": "Premium café, guided treks, and cottage stays in the Himalayas.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Parvati Valley",
+        "addressLocality": "Kasol",
+        "addressRegion": "Himachal Pradesh",
+        "postalCode": "175105",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-9876543210",
+      "url": "https://yourdomain.com"
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
