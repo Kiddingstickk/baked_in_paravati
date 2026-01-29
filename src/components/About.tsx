@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Heart } from "lucide-react";
 import imgMain from "../assets/pexels-lilartsy-3016312.jpg";
 import imgOverlap from "../assets/jerry-zhang-ePpaQC2c1xA-unsplash.avif";
-import bgImg from "../assets/tuti.avif"; // background image
+import bgImg from "../assets/tuti2.avif"; // background image
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);

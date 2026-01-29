@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Star } from "lucide-react";
-import bgImg from "../assets/gaurav-sharma-VCkzM-XDeGE-unsplash.jpg"; // background image
+import bgImg from "../assets/gaurav-sharma-VCkzM-XDeGE-unsplash.avif"; // background image
 import img1 from "../assets/cristiano-pinto-h26rYnb7tBw-unsplash.jpg";
 import img2 from "../assets/jerry-zhang-ePpaQC2c1xA-unsplash.avif";
 import img3 from "../assets/matteo-catanese-kSYwKLhTNz0-unsplash.jpg";

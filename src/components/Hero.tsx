@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import heroImage from "../assets/another_trail.avif";       // background image
-import highlightImage from "../assets/removed-background-_5_.webp";  // PNG overlay
+import highlightImage from "../assets/removed-background-_5_.png";  // PNG overlay
 
 gsap.registerPlugin(ScrollTrigger);
 

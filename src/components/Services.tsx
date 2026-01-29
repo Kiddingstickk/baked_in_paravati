@@ -13,7 +13,8 @@ const services = [
     title: "Trek",
     description: "Lose yourself in breathtaking trails, where silence speaks louder than words.",
     type: "video",
-    bg: "https://www.pexels.com/download/video/32296485/"
+    bg: "https://www.pexels.com/download/video/32296485/", // external video link
+    poster: "https://images.pexels.com/photos/19877800/pexels-photo-19877800.jpeg" // poster image
   },
   {
     icon: Coffee,
@@ -27,7 +28,8 @@ const services = [
     title: "Cottage",
     description: "Rustic stays crafted for peace, where every dawn feels like a new beginning.",
     type: "video",
-    bg: "https://www.pexels.com/download/video/15776901/"
+    bg: "https://www.pexels.com/download/video/15776901/", // external video link
+    poster: "https://images.pexels.com/photos/14446670/pexels-photo-14446670.jpeg" // local poster image
   }
 ];
 
@@ -79,9 +81,9 @@ export default function ServicesImage() {
       >
         <div>
           <p className="text-white text-xl font-semibold tracking-widest mb-2">OUR</p>
-          <h1 className="font-serif whitespace-nowrap text-[8vw] md:text-[6vw] font-bold text-white leading-none tracking-wide">
+          <h2 className="font-serif whitespace-nowrap text-[8vw] md:text-[6vw] font-bold text-white leading-none tracking-wide">
             SERVICES
-          </h1>
+          </h2>
         </div>
 
         <div className="space-y-6 text-white">
@@ -129,9 +131,11 @@ export default function ServicesImage() {
                     loop
                     muted
                     playsInline
+                    poster={service.poster} // ✅ poster image
                     className="absolute inset-0 w-full h-full object-cover"
-                    src={service.bg}
-                  />
+                  >
+                    <source src={service.bg} type="video/mp4" /> {/* external video link */}
+                  </video>
                 ) : (
                   <div
                     className="absolute inset-0"
